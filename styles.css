@@ -1,25 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css?family=Muli');
+@import url('https://fonts.googleapis.com/css?family=Muli:700');
+
 * {
 	box-sizing: border-box;
 }
 
 html, body {
 	margin: 0;
+	font-family: "Muli", sans-serif;
 }
 
 header, footer {
 
+	background-color: purple;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	padding-left: 300px;
+	padding-right: 400px;
+
 }
 
 .centered {
-
+	color: white;
 }
 
 header .subtitle {
-
+	font-size: 20px;
 }
 
 h1 {
-
+	font-size: 60px;
 }
 
 ul {
@@ -27,24 +38,46 @@ ul {
 	flex-wrap: wrap;
 }
 
+header ul li {
+	width: 50%;
+	font-style: italic;
+}
+
 ul li {
 	width: 50%;
 }
+
 
 main {
 
 }
 
-section {
+article {
+	padding-top: 5px;
+	}
 
+section {
+	padding-right: 375px;
+	padding-left: 375px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 h2 {
+	color: purple;
+	font-family: Muli:700;
+}
+
+hr {
+
+	color: purple;
 
 }
 
 h3 {
-
+	
+	color: purple;
+	font-weight: 400,600;
 }
 
 p {
@@ -52,17 +85,24 @@ p {
 }
 
 .details {
-
+	color: purple;
 }
 
 .object {
-
+	color: purple;
+	font-weight: 700;
 }
 
 .object:after {
 	content: " | ";
+	color: purple;
 }
 
-footer h2 {
+.right {
+	padding-left: 50px;
+	}
 
+footer h2 {
+	color: white;
+	font-weight: 400,600;
 }
